@@ -26,7 +26,7 @@ a la gran comunidad de los **Webcomponents de Polymer**, ¡Tengo una buena notic
 - Bundled production-ready builds ✅
 
 La guia de uso viene muy bien explicada en la documentación del modulo, pero si queréis verlo funcionando
-he montado una [demo](https://run.plnkr.co/CTQGkoAhQAMCBw8z/) y colgado el codigo fuente en este [Plunk](https://plnkr.co/edit/Jb0b8lGjNpd5m1p8bIhM?p=preview).
+he montado un ejemplo de uso en este [Plunk](https://plnkr.co/edit/Jb0b8lGjNpd5m1p8bIhM?p=preview).
 
 He añadido algunas notas con los aspectos que considero más relevantes en cuanto a su integración y uso en una app Angular.
 Los he marcado con la tag ```@note```. A modo de resumen destacaría:
