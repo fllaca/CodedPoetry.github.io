@@ -6,7 +6,7 @@ description: ¡Usa webcomponents de Polymer en tu app Angular!
 tags: Angular Polymer
 categories: Frontend Samples
 twitter_text: Angular + Polymer Bridge
-author: Aaron Rosas (aarr90@gmail.com)
+author: aaron
 ---
 
 ## Intro
