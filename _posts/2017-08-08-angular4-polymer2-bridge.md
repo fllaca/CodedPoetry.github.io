@@ -72,7 +72,7 @@ export class AppModule {}
 </paper-input>
 ```
 
-
+___
 Espero que os sirva y pronto pongáis en comunión estos 2 maravillosos mundos en vuestras aplicaciones webs!
 
 > [Aaron Rosas](https://github.com/a2ron)
