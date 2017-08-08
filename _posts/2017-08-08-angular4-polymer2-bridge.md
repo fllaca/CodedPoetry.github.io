@@ -9,6 +9,7 @@ twitter_text: Angular + Polymer Bridge
 author: Aaron Rosas (aarr90@gmail.com)
 ---
 
+## Intro
 Si siempre te ha gustado el enfoque de **Angular como Framework** FrontEnd para aplicaciones web pero no quieres renunciar
 a la gran comunidad de los **Webcomponents de Polymer**, ¡Tengo una buena noticia para ti!
 
@@ -25,6 +26,7 @@ a la gran comunidad de los **Webcomponents de Polymer**, ¡Tengo una buena notic
 - Ahead-of-Time Compliant ✅
 - Bundled production-ready builds ✅
 
+## Code
 La guia de uso viene muy bien explicada en la documentación del modulo, pero si queréis verlo funcionando
 he montado un ejemplo de uso en este [Plunk](https://plnkr.co/edit/Jb0b8lGjNpd5m1p8bIhM?p=preview).
 
@@ -33,6 +35,7 @@ he montado un ejemplo de uso en este [Plunk](https://plnkr.co/edit/Jb0b8lGjNpd5m
 He añadido algunas notas con los aspectos que considero más relevantes en cuanto a su integración y uso en una app Angular.
 Los he marcado con la tag ```@note```. A modo de resumen destacaría:
 
+## Notes
 - dependencia ```webcomponents-loader.js``` a incluir en el ```index.html``` de la app.
 ```html
   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.6/webcomponents-loader.js"></script>
@@ -68,3 +71,8 @@ export class AppModule {}
 <paper-input emitChanges ironControl [(ngModel)]="myComponentVar">
 </paper-input>
 ```
+
+
+Espero que os sirva y pronto pongáis en comunión estos 2 maravillosos mundos en vuestras aplicaciones webs!
+
+> [Aaron Rosas](https://github.com/a2ron)
