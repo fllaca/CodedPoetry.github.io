@@ -43,7 +43,7 @@ en la version actual no es posible cargarlo desde la template de los componentes
 ```
 - El modulo ```@codebakery/origami``` ha de importarse en el modulo principal de la aplicación Angular.
 ```CUSTOM_ELEMENTS_SCHEMA``` de ```@angular/core``` debe definirse como schema del modulo para evitar errores cuando
-Angular no encuentre algun componente, es en ese momento cuando el modulo ```@codebakery/origami``` buscará y tratará como webcomponent de Polymer,
+Angular no encuentre algún componente, es en ese momento cuando el modulo ```@codebakery/origami``` lo buscará y tratará como webcomponent de Polymer,
 informando de un error por consola si no lo halla.
 ```typescript
 import { PolymerModule } from '@codebakery/origami';
@@ -58,7 +58,7 @@ import { PolymerModule } from '@codebakery/origami';
 })
 export class AppModule {}
 ```
-- Para bindear propiedades o eventos, hay que especificarlo en el webcomponent mediante los atributos:
+- Para **bindear** propiedades o eventos, hay que especificarlo en el webcomponent mediante los atributos:
     - ```ironControl``` angular property --> polymer attribute
 
     - ```emitChanges```  polymer attribute <-- angular property
