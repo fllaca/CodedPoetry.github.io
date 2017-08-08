@@ -28,7 +28,7 @@ a la gran comunidad de los **Webcomponents de Polymer**, ¡Tengo una buena notic
 La guia de uso viene muy bien explicada en la documentación del modulo, pero si queréis verlo funcionando
 he montado un ejemplo de uso en este [Plunk](https://plnkr.co/edit/Jb0b8lGjNpd5m1p8bIhM?p=preview).
 
-![Pluk Screenshot](/assets/img/Angular4+Polymer2Bridge/screenshot.png "Pluk Screenshot")
+[![Pluk Screenshot](/assets/img/Angular4+Polymer2Bridge/screenshot.png "Pluk Screenshot")](https://plnkr.co/edit/Jb0b8lGjNpd5m1p8bIhM?p=preview)
 
 He añadido algunas notas con los aspectos que considero más relevantes en cuanto a su integración y uso en una app Angular.
 Los he marcado con la tag ```@note```. A modo de resumen destacaría:
