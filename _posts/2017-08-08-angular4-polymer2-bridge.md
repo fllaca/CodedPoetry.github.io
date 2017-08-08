@@ -32,9 +32,12 @@ He añadido algunas notas con los aspectos que considero más relevantes en cuan
 Los he marcado con la tag ```@note```. A modo de resumen destacaría:
 
 - dependencia ```webcomponents-loader.js``` a incluir en el ```index.html``` de la app.
+```html
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.6/webcomponents-loader.js"></script>
+``
 - EL codigo fuente de los webcomponents, tiene que importarse tambien desde ```index.html```,
-en la version actual no es posible cargarlo desde la template de los componentes angular de la app
-```
+en la version actual no es posible cargarlo desde la template de los componentes angular de la app.
+```html
 <!-- must be in index.html -->
 <link href="WEB_COMPONENT/WEB_COMPONENT.html" rel="import">
 ```
@@ -59,7 +62,7 @@ export class AppModule {}
     - ```ironControl``` angular property --> polymer attribute
 
     - ```emitChanges```  polymer attribute <-- angular property
-```
+```html
 <paper-input emitChanges ironControl [(ngModel)]="myComponentVar">
 </paper-input>
 ```
