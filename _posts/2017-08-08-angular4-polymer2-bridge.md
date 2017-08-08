@@ -34,7 +34,7 @@ Los he marcado con la tag ```@note```. A modo de resumen destacaría:
 - dependencia ```webcomponents-loader.js``` a incluir en el ```index.html``` de la app.
 ```html
   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.6/webcomponents-loader.js"></script>
-``
+```
 - EL codigo fuente de los webcomponents, tiene que importarse tambien desde ```index.html```,
 en la version actual no es posible cargarlo desde la template de los componentes angular de la app.
 ```html
