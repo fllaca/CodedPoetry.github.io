@@ -2,6 +2,7 @@
 layout: post
 title: "Persistence with Spring Data, PostgreSQL & Spring Boot."
 description: 'Ejemplo básico de como configurar y usar Spring Data con PostgreSQL y arancarlo con Spring Boot.'
+author: joni
 tags:
 - Spring Data
 - Spring Boot
