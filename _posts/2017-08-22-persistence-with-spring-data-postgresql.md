@@ -116,6 +116,9 @@ En este ejemplo, con la url `localhost:8080/animals/254` nos devolveria el **JSO
         return animalRepository.findOne(animalsId);
     }
 ```
+
+<br/>
+
 ```java
 import java.util.List;
 
