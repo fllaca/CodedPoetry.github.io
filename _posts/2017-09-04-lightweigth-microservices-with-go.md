@@ -2,13 +2,16 @@
 layout: post
 title: "Lightweigth microservices with Go"
 author: pablo
-date: 2017-07-25 19:00:00
+date: 2017-09-04 00:00:00
 description: ¡Realiza tus microservicios con Go!
 tags: Microservices Golang 
 categories: Microservices
 twitter_text: Lightweigth microservices with Go
 ---
 
+Hoy me gustaría poner ante vosotros una manera de realizar microservicios de una manera sencilla y ligera y ya que estamos que nos llegará a los más nostálgicos al corazón :). Aunque seguro que la mayoría de vosotros conocéis [Go](https://golang.org/), el lenguaje de Google que nació en 2007, Go es un lenguaje cuya sintaxis está derivada de **C** y que añade algunas funcionalidades muy conocidas por los Javeros como pueden ser el recolector de basura, además de permitirnos crear scripts muy consistentes y eficientes.
+
+Para ello hoy os prongo un script de Go que nos permite lanzar un microservicio para tener una lista de notas y tareas para que no olvidemos aquello más importante de nuestro día a día. Por simplificar este servicio solo permitiremos crear nuevas notas y listar aquellas que ya hemos creado.
 
 #### notes_microservice.go
 
@@ -18,7 +21,7 @@ package main
 import (
     "encoding/json"
     "net/http"
-	"time"
+    "time"
 )
 
 type Note struct {
@@ -93,6 +96,8 @@ func returnMessage (response http.ResponseWriter, request *http.Request, message
 }
 ```
 
+Cabe destacar que nuestro microservicio guarda en memoria las notas que vayamos creando. Como buenos *Geeks* os animo a que utilicéis estás pequeñas directrices para hacer vuestros microservicios utilizando persistencia.
+
 Para arrancar nuestro microservicio solo tenéis que ejecutar la siguiente linea de comandos.
 
 ```shell
@@ -100,5 +105,15 @@ Para arrancar nuestro microservicio solo tenéis que ejecutar la siguiente linea
 go run notes_microservice.go
 
 ```
+
+Ahora solo tenéis que hacer vuestras peticiones GET (para el listado de notas) y POST (para crear nuevas notas) a *localhost:8080/notes*. Os dejo algún json de ejemplo para ir creando vuestras primeras notas.
+
+```json
+	{
+        "content" : "Comprar el pan"
+    }
+```
+
+Espero que os haya sido de ayuda.
 
 
