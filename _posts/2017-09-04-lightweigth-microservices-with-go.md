@@ -98,7 +98,7 @@ func returnMessage (response http.ResponseWriter, request *http.Request, message
 
 Cabe destacar que nuestro microservicio guarda en memoria las notas que vayamos creando. Como buenos *Geeks* os animo a que utilicéis estás pequeñas directrices para hacer vuestros microservicios utilizando persistencia.
 
-Para arrancar nuestro microservicio solo tenéis que ejecutar la siguiente linea de comandos.
+Para arrancar vuestro microservicio solo tenéis que ejecutar la siguiente linea de comandos.
 
 ```shell
 
