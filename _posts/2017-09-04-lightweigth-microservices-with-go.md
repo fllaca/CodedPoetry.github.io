@@ -109,8 +109,8 @@ go run notes_microservice.go
 Ahora solo tenéis que hacer vuestras peticiones GET (para el listado de notas) y POST (para crear nuevas notas) a *localhost:8080/notes*. Os dejo algún json de ejemplo para ir creando vuestras primeras notas.
 
 ```json
-	{
-        "content" : "Comprar el pan"
+    {
+        "Content" : "Comprar el pan"
     }
 ```
 
