@@ -3,11 +3,12 @@ title: Coded Poetry
 description: and other technical thoughts...
 #baseurl: "/will-jekyll-template" # the subpath of your site, e.g. /blog
 url: "http://codedpoetry.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
-
+# used in _includes/head.html to filter Google Analytics requests when testing in local
+domain_name: codedpoetry.com
 # User settings
 username: Fernando Llaca
 user_description: Full-Stack developer and DevOps engineer. Code and Poetry enthusiast.
-user_title: Poetry Developer 
+user_title: Poetry Developer
 email: ferllarom@gmail.com
 twitter_username: NandoLlaca
 github_username:  fllaca
