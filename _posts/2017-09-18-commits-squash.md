@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git Commit Squash"
-date: 2017-09-01
+date: 2017-09-18
 description: Demasiados commits en la rama... squash them!!
 tags: 
 - git
@@ -21,7 +21,7 @@ git rebase -i master
 ```
 Esto nos abrirá el editor en consola (el que tengamos configurado, normalmente *nano* o *vim*) mostrando algo parecido a esto:
 
-```
+```shell
 pick 2231360 some old commit
 pick ee2adc2 Adds new feature
 
@@ -41,7 +41,8 @@ pick ee2adc2 Adds new feature
 
 Los commits que queramos "fusionar con el anterior" los marcamos con `s` o  `squash`. En el ejemplo, el commit *ee2adc2* se fusionará con *2231360*:
 
-```
+```shell
+# (use 's' to mark the commits to squash)
 pick 2231360 some old commit
 s ee2adc2 Adds new feature
 
@@ -56,8 +57,6 @@ s ee2adc2 Adds new feature
 En caso de conflictos durante la operación de rebase, podemos usar `git mergetool` para resolverlos:
 
 ```shell
-# (use 's' to mark the commits to squash)
-
 # In case of conflicts:
 git mergetool
 git rebase --continue
