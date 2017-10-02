@@ -11,6 +11,7 @@ categories:
 - Bricohacks
 - Tips
 twitter_text: TV Box Tips
+author: aaron
 ---
 
 El propósito de este post es simplemente compartir algunos
