@@ -13,6 +13,7 @@ searchable: true
 * [Introduction](#introduction)
 * [How does it work?](#how-does-it-work)
 * [FAQs](#faqs)
+* [EULA](#eula)
 
 ## Introduction
 
@@ -38,3 +39,6 @@ Notice that when you create a custom field of this type, you configure it to be 
 #### I have an EasyLinks field with a JQL restriction for its value, but I can see that some issues show values that doesn't match that JQL
 
 The JQL restriction only applies when editing the field, it just "filters" the options that the user can select. If you manually create an issue link (with the standar JIRA link dialog), EasyLinks will show it as a value of the field.
+
+## EULA
+See [EasyLinks for Jira - EULA]({{ site.url }}/easy-links-eula)
