@@ -4,7 +4,7 @@ title: Easy Links for Jira - EULA
 image: '/assets/img/easy-links-for-jira/easylinks-logo.png'
 searchable: true
 ---
-# End User License Agreemen
+# End User License Agreement
 
 You must read this Product License Agreement (“Agreement”) carefully before completing your order for the Product. This Agreement sets out the terms and conditions on which Coded Poetry licenses the Product to the Licensee. To complete your order for the Product, you must first scroll down to the end of this Agreement and accept these terms and conditions. You represent and warrant that you have authority to enter into this Agreement with Coded Poetry on behalf of the Licensee, that you have read the terms and conditions set out herein and that the Licensee agrees to be bound by the terms and conditions. By ordering the Product you, on behalf of the Licensee, agree to be bound by the terms and conditions of this Agreement.
 
