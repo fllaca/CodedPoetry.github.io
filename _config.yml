@@ -2,7 +2,7 @@
 title: Coded Poetry
 description: and other technical thoughts...
 #baseurl: "/will-jekyll-template" # the subpath of your site, e.g. /blog
-url: "http://codedpoetry.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://codedpoetry.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 # used in _includes/head.html to filter Google Analytics requests when testing in local
 domain_name: codedpoetry.com
 # User settings
